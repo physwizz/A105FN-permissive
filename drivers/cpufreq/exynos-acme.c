@@ -1129,7 +1129,7 @@ __setup("cpu_min_c2=", cpufreq_read_cpu_min_c2);
 
 
 /*Overclocking little cores from 1.35GHz to 1.35GHz*/
-static unsigned long arg_cpu_max_c1 = 1352000; /*max_cpu_freq=1.35 GHz for little cores*/
+static unsigned long arg_cpu_max_c1 = 1690000; /*max_cpu_freq=1.35 GHz for little cores*/
 
 static int __init cpufreq_read_cpu_max_c1(char *cpu_max_c1) /*integer remains in memory after function call*/
 {
@@ -1147,7 +1147,7 @@ static int __init cpufreq_read_cpu_max_c1(char *cpu_max_c1) /*integer remains in
 __setup("cpu_max_c1=", cpufreq_read_cpu_max_c1);
 
 /*Overclocking big cores from 1.56GHz to 1.56GHz*/
-unsigned long arg_cpu_max_c2 = 1560000; /*max_cpu_freq=1.56GHz*/
+unsigned long arg_cpu_max_c2 = 2080000; /*max_cpu_freq=1.56GHz*/
 
 static __init int cpufreq_read_cpu_max_c2(char *cpu_max_c2)
 {
